@@ -1,0 +1,18 @@
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "./scss/home";
+@import './scss/button';
+@import './scss/contactus';
+@import './scss/keyBenefitCard';
+@import './scss/header';
+
+body{
+    min-width: 375px;
+    background: #fcfcfd;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    line-height: 1.7142857143;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #23262f;
+}

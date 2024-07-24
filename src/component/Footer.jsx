@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -12,8 +13,8 @@ const Footer = () => {
             </div>
             <div className="col">
               <div class="d-flex flex-column-reverse">
-                <div class="p-2"> item 1</div>
-                <div class="p-2"> item 2</div>
+                <div class="p-2">  <NavLink to="/policy" className="header-logo mt-3">policy</NavLink></div>
+                <div class="p-2"> <NavLink to="/tnc" className="header-logo mt-3">tnc</NavLink></div>
                 <div class="p-2"> item 3</div>
               </div>
             </div>

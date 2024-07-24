@@ -7,7 +7,7 @@ const Home = () => {
         <div className="row home-container gx-0">
           <div className="col-sm-8 col-md-8">
             <div className="wrap">
-              <h1 className="h1">
+              <h1 className="h1-text">
                 Digitize parking of any sizes maximize the revenue
               </h1>
               <div className="text">

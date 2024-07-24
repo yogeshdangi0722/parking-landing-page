@@ -6,14 +6,13 @@ const Header = () => {
     <>
       <div className="header">
         <div className="header-container">
-            <NavLink to="/" className="header-logo">
+            <NavLink to="/" className="header-logo mt-3">
 
           <img
             src={logo}
             className="card-img-top"
             alt="logo"
-            width={150}
-            height={100}
+            height={70}
             />
             </NavLink>
         </div>

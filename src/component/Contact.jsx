@@ -6,7 +6,7 @@ const ContactForm = () => {
         <div className="form-container">
 
       <h2>Fill Out The Form To?</h2>
-      <span class="text">Enter your details below and the following will occur.</span>
+      <span className="text">Enter your details below and the following will occur.</span>
       <form className="mt-4 w-100">
         <div className="row mb-3">
           <div className="col-md-6">

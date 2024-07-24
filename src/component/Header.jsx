@@ -1,18 +1,21 @@
+import logo from '../assets/images/logo.png'
+import { NavLink } from 'react-router-dom';
+
 const Header = () => {
   return (
     <>
       <div className="header">
         <div className="header-container">
-            <a href="_self" className="header-logo">
+            <NavLink to="/" className="header-logo">
 
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Target_logo.svg"
+            src={logo}
             className="card-img-top"
             alt="logo"
             width={150}
             height={100}
             />
-            </a>
+            </NavLink>
         </div>
       </div>
     </>

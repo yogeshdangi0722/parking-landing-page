@@ -1,25 +1,21 @@
-import Home from "./component/Home";
-import Footer from "./component/Footer";
-import ContactForm from "./component/Contact";
-import KeyBenefit from "./component/KeyBenefit";
-import Header from "./component/Header";
-import Features from "./component/Features";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./views/Layout";
+import Index from "./pages/Index";
+import Policy from "./pages/policy";
+import Tnc from "./pages/tnc";
 
-function App() {
+const App = () => {
   return (
-    <div className="container-fluid">
-      <Header />
-      <main>
-        <Home />
-        <KeyBenefit />
-        <Features />
-        <ContactForm />
-      </main>
-      <footer className="mt-4">
-      <Footer />
-      </footer>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />} >
+        <Route index element={<Index />} />
+        <Route path="/policy" element={<Policy />} />
+        <Route path="/tnc" element={<Tnc />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
